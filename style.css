@@ -1,0 +1,27 @@
+<style>
+       	.main {background-color: white;}
+        .white-border-box{
+            {
+  border: 15px solid white;
+  border-radius: 50px;
+  width: 30px;
+  margin: 5px;
+}
+#my-icon{
+  width: 30px;
+}
+        }
+       </style>
+       body {
+        background-color: lightblue;
+      }
+      
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      
+      p {
+        font-family: verdana;
+        font-size: 20px;
+      }
