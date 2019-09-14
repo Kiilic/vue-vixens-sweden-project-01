@@ -1,27 +1,130 @@
-<style>
-       	.main {background-color: white;}
-        .white-border-box{
-            {
-  border: 15px solid white;
+.main {
+  background-color: white;
+}
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.pink-border-box {
+  background-color: #c6076d;
+  width: 30px;
+  height: 30px;
   border-radius: 50px;
-  width: 30px;
-  margin: 5px;
+  display: inline;
+  margin: 10px;
 }
-#my-icon{
+
+.header {
+  border: 1px solid gray;
+  display: flex;
+}
+
+#logo-container {
+  flex: 1;
+}
+
+#header-links-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.banner {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.content {
+  background-color: pink;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.content-box-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraphs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pink-border {
+  flex: 1;
+  background-color: pink;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.check-box {
+  width: 300px;
+  height: 100px;
+  border-radius: 200px;
+  display: inline;
+}
+
+.button-container {
+  background-color: #c6076d;
+  width: 50%;
+  height: 60px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.button-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.big-link {
+  flex: 1;
+  background-color: #c6076d;
+  width: 25%;
+  height: 60px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 25px;
+}
+
+.white-border-box {
+  border-radius: 20px;
+  width: 30px;
+  flex-direction: row;
+  margin-right: 5px;
+  margin-left: 5xp;
+}
+
+#my-icon {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer {
+  background-color: #c6076d;
+}
+
+#my-icon {
   width: 30px;
 }
-        }
-       </style>
-       body {
-        background-color: lightblue;
-      }
-      
-      h1 {
-        color: white;
-        text-align: center;
-      }
-      
-      p {
-        font-family: verdana;
-        font-size: 20px;
-      }
