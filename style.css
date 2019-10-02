@@ -75,7 +75,7 @@ p {
   width: 300px;
   height: 100px;
   border-radius: 200px;
-  display: inline;
+  display: center;
 }
 
 .button-container {
